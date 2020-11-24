@@ -1,0 +1,31 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "A basic weather app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/md-ahr/weather-app-express.git"
+  },
+  "author": "Abdul Halim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/md-ahr/weather-app-express/issues"
+  },
+  "homepage": "https://github.com/md-ahr/weather-app-express#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "engines": {
+    "node": "12.18.3"
+  }
+}
